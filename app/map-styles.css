@@ -1,0 +1,43 @@
+.state-path {
+  transition: fill 0.3s ease, stroke-width 0.2s ease;
+}
+
+.state-path:hover {
+  filter: brightness(1.1);
+}
+
+.zoom-controls button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.zoom-controls button:hover {
+  transform: scale(1.1);
+  background-color: #f8f8f8;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* Add styling for the animated counters */
+.counter-value {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
