@@ -10,9 +10,5 @@ const nextConfig = {
     unoptimized: true,
   },
 }
-module.exports = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-}
+
 export default nextConfig
