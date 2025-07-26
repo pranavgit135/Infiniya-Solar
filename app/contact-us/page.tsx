@@ -9,7 +9,6 @@ import { getContactPage } from "@/utils/contentful/contact";
 
 export default async function ContactUs() {
   const data = await getContactPage()
-  console.log(data)
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50">
@@ -54,10 +53,13 @@ export default async function ContactUs() {
         <div className="max-w-5xl xl:max-w-7xl  mx-auto flex flex-col md:flex-row gap-8 items-start">
           {/* Address Block */}
           <div className="flex-1 min-w-[220px] md:min-w-[300px] mb-8 md:mb-0">
+            <div className="flex">
             <MapPin className="h-10 w-10 text-amplusBlue" />
-            <h2 className="text-lg xl:text-xl font-bold text-amplusBlue mb-2 uppercase tracking-tight">
-              {data.loactionTitle}
+            <h2 className="text-lg flex xl:text-xl font-bold text-amplusBlue mb-2 uppercase tracking-tight">
+            {data.loactionTitle}
             </h2>
+            </div>
+            
             <div className="text-lg xl:text-xl font-semibold text-gray-800 mb-2">
               {data.locationText1}
             </div>

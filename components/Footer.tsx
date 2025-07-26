@@ -129,7 +129,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} Amplus Solar. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Infinia Solar. All rights reserved. Developed by GEO Softech</p>
         </div>
       </div>
     </footer>

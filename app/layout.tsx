@@ -12,10 +12,10 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Amplus Solar - Trusted Clean Energy Partner",
+  title: "Infinia Solar - Trusted Clean Energy Partner",
   description:
-    "Amplus empowers commercial and industrial clients with low-carbon energy solutions, offering clean power through on-site solar installations and off-site solar farms.",
-  generator: "v0.dev",
+    "Infinia empowers commercial and industrial clients with low-carbon energy solutions, offering clean power through on-site solar installations and off-site solar farms.",
+  generator: "",
 };
 
 export default function RootLayout({

@@ -91,10 +91,10 @@ export default function CustomerLogos({ data }: { data: any }) {
     <section className="py-20 bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-28">
       <div className="container mx-auto relative">
         <div className="text-center mb-12">
-        <h2 className=" text-2xl xl:text-4xl  font-bold text-amplusBlue mb-4 sm:mb-6">
+        <h2 className=" text-2xl xl:text-3xl  font-bold text-amplusBlue ">
           {data.customerTitle1}.
           </h2>
-          <h3 className="text-2xl xl:text-4xl font-bold text-[#1e3a6e] mb-6">{data.customerTitle2}</h3>
+          <h3 className="text-2xl xl:text-3xl font-bold text-[#1e3a6e] mb-6">{data.customerTitle2}</h3>
           <p className="text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-10 xl:text-lg text-base">
             {data.customerDescription}
           </p>

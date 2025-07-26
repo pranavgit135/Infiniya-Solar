@@ -146,7 +146,7 @@ export async function getHomePage() {
   }
     `)) 
   
-    console.log(data);
+   
     
   return data?.data?.homePageCollection?.items?.[0];
 }

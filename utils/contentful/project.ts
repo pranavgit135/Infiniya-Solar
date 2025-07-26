@@ -61,7 +61,7 @@ export async function getProjectPage() {
   
   }}}
     `)) 
-    console.log(data);
+
     
   return data?.data?.projectPageCollection?.items?.[0];
 }

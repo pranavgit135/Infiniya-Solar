@@ -9,7 +9,7 @@ import { getProjectPage } from "@/utils/contentful/project";
 export default async function Home() {
   
 const data = await getProjectPage()
-console.log(data);
+
 
   return (
     <main className="flex min-h-screen flex-col items-center mx-auto">

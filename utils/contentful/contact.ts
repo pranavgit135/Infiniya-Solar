@@ -36,7 +36,7 @@ export async function getContactPage() {
     }
   }
     `)) 
-    console.log(data);
+ 
     
 
   return data?.data?.contactPageCollection?.items?.[0];

@@ -44,7 +44,7 @@ export async function getServicePage() {
     }
   }
     `)) 
-    console.log(data);
+    
     
 
   return data?.data?.servicePageCollection?.items?.[0];
