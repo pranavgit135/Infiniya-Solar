@@ -26,7 +26,7 @@ import { ShinyButton } from "../ui/animated-button";
 const FORM_STORAGE_KEY = "amplus-contact-form";
 
 // Add this to access env variable (Next.js exposes NEXT_PUBLIC_*)
-const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_CAPTCHA_SITE_KEY || "";
+const RECAPTCHA_SITE_KEY = "6LdZUVorAAAAAGkvzbwt4wqSvOVFpqRTo9GDwO1d" || "";
 
 // Fix for TypeScript: declare grecaptcha on window
 declare global {
